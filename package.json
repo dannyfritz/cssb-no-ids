@@ -1,6 +1,6 @@
 {
   "name": "cssb-no-ids",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A css-bouncer plugin for ensuring there are no ID's in your CSS.",
   "main": "index.js",
   "directories": {
