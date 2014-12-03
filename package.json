@@ -1,0 +1,41 @@
+{
+  "name": "cssb-no-ids",
+  "version": "0.0.0",
+  "description": "A css-bouncer plugin for ensuring there are no ID's in your CSS.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "tape test/*.js | tap-dot"
+  },
+  "files": [
+    "index.js",
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://dannyfritz@github.com/dannyfritz/cssb-no-ids.git"
+  },
+  "keywords": [
+    "cssb",
+    "css-bouncer",
+    "css",
+    "lint",
+    "id"
+  ],
+  "author": "Danny Fritz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dannyfritz/cssb-no-ids/issues"
+  },
+  "homepage": "https://github.com/dannyfritz/cssb-no-ids",
+  "devDependencies": {
+    "css-bouncer": "0.0.1-alpha2",
+    "tap-dot": "^0.2.3",
+    "tape": "^3.0.0"
+  },
+  "dependencies": {
+    "lodash": "^2.4.1"
+  }
+}
